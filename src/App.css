@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.parent{
+  cursor: pointer;
+  margin: 2px 0px;
+  padding: 1px 4px 1px 4px;
+  width: 140px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.par{
+  height: 200px;
+  padding: 10px 4px 10px 9px;
+  border-right: 1px solid rgb(167, 167, 168);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.parent:hover{
+  background-color: rgb(177, 223, 250);
+  border-radius: 3px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent:active{
+  background-color:  rgb(118, 201, 250);
+  border-radius: 3px;
+}
+.fir{
+  padding: 10px 4px;
+  border-right: 1px solid rgb(167, 167, 168);
+}
+.fchild{
+  cursor: pointer;
+  padding: 1px 15px 5px 10px;
+}
+.fchild:hover{
+  background-color: rgb(177, 223, 250);
+  border-radius: 3px;
+}
+.fchild:active{
+  background-color:  rgb(118, 201, 250);
+  border-radius: 3px;
+}
+.secChild{
+  cursor:text;
+  padding: 6px 15px 5px 10px;
+}
+.secChild-con{
+  padding-top: 8px;
+}
+.data{
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  justify-content: flex-start;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  margin: 10px 30px 10px 30px;
+}
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.heading{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px 10px 0px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: rgb(224, 223, 223);
 }
